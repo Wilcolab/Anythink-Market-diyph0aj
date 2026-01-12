@@ -52,3 +52,18 @@ GET /tasks
 POST /tasks  
 
 The responses are identical to the FastAPI server.
+
+## Node.js Server
+
+A Node.js Express server is included in the `node-server` directory.
+
+It exposes the same API as the FastAPI backend:
+
+GET /tasks  
+POST /tasks  
+
+To run both servers together:
+
+docker compose up
+
+The Python server runs on port 8000 and the Node.js server runs on port 8001.
