@@ -12,10 +12,10 @@ services:
 
   node-server:
     build:
-      context: ./simple-express-server
+      context: ./simple-express- server
       dockerfile: Dockerfile
     ports:
       - 8001:8001
     volumes:
-      - ./simple-express-server/src:/app/src
+      - ./simple-express- server/src:/app/src
     command: yarn start
