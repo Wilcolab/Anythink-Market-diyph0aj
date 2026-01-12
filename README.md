@@ -1,3 +1,16 @@
+
+---
+
+## Node.js Server (Express)
+
+This project now includes a Node.js server that mirrors the FastAPI `/tasks` API.
+
+### How to run the Node server
+
+If using Docker:
+
+```bash
+docker compose up
 <!-- WILCO-NODE-MIGRATION -->
 
 ## Node.js Migration Completed
