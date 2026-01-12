@@ -37,3 +37,18 @@ The FastAPI server provides the following API routes:
 - `POST /tasks`: Adds a task to the task list. The request body should contain the task details.
 
 - `GET /tasks`: Retrieves the task list.
+
+## Node.js Server
+
+A Node.js Express server has been added that mirrors the FastAPI backend.
+
+### Run both servers
+
+docker compose up
+
+### Node.js API (port 8001)
+
+GET /tasks  
+POST /tasks  
+
+The responses are identical to the FastAPI server.
