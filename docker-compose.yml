@@ -12,10 +12,10 @@ services:
 
   node-server:
     build:
-      context: ./anythink-market
+      context: ./simple-express- server
       dockerfile: Dockerfile
     ports:
       - 8001:8001
     volumes:
-      - ./anythink-market/src:/app/src
+      - ./simple-express- server/src:/app/src
     command: yarn start
