@@ -1,4 +1,20 @@
 
+
+---
+
+## Node.js Server
+
+This project now includes a Node.js Express server that mirrors the FastAPI backend.
+
+The Node.js server exposes the same `/tasks` endpoints and runs on port `8001`.
+
+Both servers run together using Docker Compose.
+
+### Running the servers
+
+```bash
+docker compose up
+
 ---
 
 ## Node.js Server (Express)
